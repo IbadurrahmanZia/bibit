@@ -4,7 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="18773556-1bc3-4c1d-988e-19b95ce68de5" name="Changes" comment="" />
+    <list default="true" id="18773556-1bc3-4c1d-988e-19b95ce68de5" name="Changes" comment="app and web">
+      <change afterPath="$PROJECT_DIR$/src/test/java/StepDefinitions/StepDefinitionApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Utility/ApiUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/JsonSchema/delete.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/JsonSchema/get.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/JsonSchema/post.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/JsonSchema/put.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DriverMethods/DriverMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Utility/DriverMethods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Page/BibitWebPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Page/BibitWebPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Page/MyDemoAppAndroidPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Page/MyDemoAppAndroidPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/Features/interviewQuestions.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Features/interviewQuestions.feature" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,6 +32,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="510c3d62-5d1a-4fb2-ab33-ddf7ae62b495" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -43,7 +59,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/ibadurrahmanziaulhaq/IdeaProjects/cucumberTest/src/test/resources/Capabilities",
+    "last_opened_file_path": "/Users/ibadurrahmanziaulhaq/IdeaProjects/cucumberTest/src/test/resources/JsonSchema",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -52,6 +68,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/resources/JsonSchema" />
       <recent name="$PROJECT_DIR$/src/test/resources/Capabilities" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -161,6 +178,28 @@
       <option name="presentableId" value="Default" />
       <updated>1732392945280</updated>
     </task>
+    <task id="LOCAL-00001" summary="git ignore">
+      <option name="closed" value="true" />
+      <created>1732506940692</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1732506940692</updated>
+    </task>
+    <task id="LOCAL-00002" summary="app and web">
+      <option name="closed" value="true" />
+      <created>1732506968322</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1732506968322</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="git ignore" />
+    <MESSAGE value="app and web" />
+    <option name="LAST_COMMIT_MESSAGE" value="app and web" />
   </component>
 </project>

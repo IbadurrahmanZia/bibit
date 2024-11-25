@@ -38,3 +38,18 @@ Ensure the following dependencies are installed on your system:
    Clone this project from the repository:
    ```bash
    git clone https://github.com/IbadurrahmanZia/bibit.git
+   
+## Running the Tests
+- Appium capabilities are located in src/test/resources/Capabilities
+- Start appium in separate terminal
+```bash
+  appium -p 4724 --base-path /wd/hub --allow-insecure chromedriver_autodownload
+  ````
+-Run the test using the following command:
+```bash
+  mvn test -Dtest=Runner -Dplatform={platform type} -Dcucumber.filter.tags="{tags}"
+```
+sample command:
+```bash
+mvn test -Dtest=Runner -Dplatform=api -Dcucumber.filter.tags="@API and @DELETE"
+```

@@ -3,7 +3,7 @@ package Page;
 import Utils.Locator;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import DriverMethods.DriverMethods;
+import Utility.DriverMethods;
 
 import java.util.List;
 
