@@ -37,4 +37,4 @@ Ensure the following dependencies are installed on your system:
 1. **Clone the Repository**  
    Clone this project from the repository:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/IbadurrahmanZia/bibit.git
