@@ -20,7 +20,6 @@ public class Setup {
 
     @Before
     public void setUp() throws IOException {
-        //Path to testData.properties file
         String propertiesPath = "src/test/resources/TestData/testData.properties";
         properties = new PropertiesLoader(propertiesPath);
         String platform= System.getProperty("platform").toLowerCase();
@@ -28,26 +27,24 @@ public class Setup {
         if(platform.equals("api")){
             return;
         }
-        // Path to the appium.properties file
+
         String capabilitiesPath = "src/test/resources/Capabilities/"+platform+"Capabilities.json";
 
-        // Load the capabilities using the CapabilitiesLoader class
         CapabilitiesLoader loader = new CapabilitiesLoader();
         DesiredCapabilities capabilities = loader.loadCapabilities(capabilitiesPath);
         try {
-            if(platform.equals("web")){
+            if(platform.equalsIgnoreCase("chrome")){
                 driver = new RemoteWebDriver(new URL("http://0.0.0.0:4724/wd/hub"), capabilities);
-            } else if (platform.equals("android")) {
+            } else if (platform.equalsIgnoreCase("android")) {
                 driver = new AndroidDriver(new URL("http://0.0.0.0:4724/wd/hub"), capabilities);
             }
             System.out.println("Driver initialized: " + driver);
         } catch (Exception e) {
-            e.printStackTrace();  // Print error if initialization fails
+            e.printStackTrace();
             throw e;
         }
     }
 
-    // Clean up the driver after tests
     @After
     public void tearDown() {
         if (driver != null) {
